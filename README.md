@@ -2,7 +2,7 @@
 
 Структура каталогов
 
-##docker-registry
+## docker-registry
 
 deploy docker-registry
 ```
@@ -17,7 +17,7 @@ kubectl get svc -n registry
 kubectl get ingress -n registry
 ```
 
-##hashicorp vault
+## hashicorp vault
 
 Создание секретов:
 Выполните команды для добавления секретов в Vault (например, credentials для Docker Registry):
