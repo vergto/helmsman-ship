@@ -1,0 +1,7 @@
+# k8s/namespaces/vault-namespaces.yaml
+# kubectl apply -f k8s/namespaces/vault-namespace.yaml
+
+apiVersion: v1
+kind: Namespace
+metadata: 
+  name: vault
